@@ -30,3 +30,4 @@ header{background:linear-gradient(100deg,#ffd602 0%,#ffd602 24%,#ffeb82 36%,#fff
 
 /* Marca de mayor presencia, conservando la proporción original. */
 header{height:132px}.brand{width:250px;flex-shrink:0}.brand img{height:auto}html{scroll-padding-top:148px}@media(min-width:801px) and (max-width:1100px){header{padding-inline:4%;gap:20px}.brand{width:220px}nav{gap:17px;font-size:12px}.nav-cta{padding:12px 15px}}@media(max-width:800px){header{height:108px}.brand{width:205px}nav{top:108px}html{scroll-padding-top:122px}}@media(max-width:380px){.brand{width:185px}header{height:100px}nav{top:100px}}
+header{background:linear-gradient(100deg,#ffd602 0%,#ffd602 max(325px,calc((100vw - 1240px)/2 + 290px)),#fff7cf 52%,#fff 70%)}@media(max-width:800px){header{background:linear-gradient(100deg,#ffd602 0%,#ffd602 235px,#fff 100%)}}
